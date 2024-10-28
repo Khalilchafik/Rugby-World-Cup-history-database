@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url('../images/background.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1 mark {
+    padding: 0 30px ;
+    letter-spacing:2px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #324960;
+    color:white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height:100vh;
+    width:100%;
+}
+
+.fl-table {
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    white-space: nowrap;
+    background-color: white;
+    width : 80%;
+    margin-bottom: 20px;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    font-size: 12px;
+    padding:15px 8px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+    text-transform: capitalize;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+.btn{
+    padding: 7px;
+    background-color:#4FC3A1;
+    color : white;
+    border-radius : 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    
+}
+.inserer_acceuil{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+.btn_modifier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(159, 132, 201);
+    padding: 7px;
+    color : white;
+    border-radius : 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    gap : 2px;
+    
+}
+.btn_supprimer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(251 113 133);
+    padding: 7px;
+    color : white;
+    border-radius : 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    gap : 2px;
+    
+}
+.btn_detailler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(13, 143, 243);
+    padding: 7px;
+    color : white;
+    border-radius : 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    gap : 4px;
+    
+}
+.btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+}
+.btn_table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(13, 143, 243);
+    padding: 7px;
+    color : white;
+    border-radius : 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    gap : 4px;
+}
+.auteurs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap : 5px;
+    color : white;
+    font-size: 20px;
+}
